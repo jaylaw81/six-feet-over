@@ -1,4 +1,12 @@
+<p align="center">
+  Multi-screen mockup image will go here.
+</p>
+
 # Six Feet Over  <!-- omit in toc -->
+
+<p align="center">
+  Badges will go here.
+</p>
 
 ## Table of Contents <!-- omit in toc -->
 - [Overview](#Overview)
