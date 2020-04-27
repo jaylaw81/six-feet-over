@@ -2,11 +2,17 @@
   Multi-screen mockup image will go here.
 </p>
 
-# Six Feet Over  <!-- omit in toc -->
+# Six Feet Over <!-- omit in toc -->
 
-<p align="center">
-  Badges will go here.
-</p>
+<div align="center">
+
+![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_message=online&url=https%3A%2F%2Fwww.sixftover.org)
+
+![GitHub top language](https://img.shields.io/github/languages/top/mishakessler/six-feet-over)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
+</div>
 
 ## Table of Contents <!-- omit in toc -->
 - [Overview](#Overview)
@@ -14,7 +20,6 @@
   - [Inspiration](#Inspiration)
   - [Team](#Team)
 - [Contributing](#Contributing)
-  - [Quick Start](#Quick-Start)
 - [Development](#Development)
   - [Features](#Features)
   - [Infrastructure](#Infrastructure)
@@ -51,20 +56,11 @@ Six Feet Over is a certified 501c3 nonprofit based in Detroit, Michigan. We spec
 
 ## Contributing
 
-_Hoping to contribute?_ We highly encourage contributions to further enable the mission of Six Feet Over! Check out [Contributing](CONTRIBUTING.md) for more.
+_Hoping to contribute?_ We highly encourage contributions to further enable the mission of Six Feet Over!
 
-_Not sure where to start?_ Don't hesitate to get in touch so we can find something that suits your skills and interests.
+_Not sure where to start?_ Don't hesitate to get in touch so we can find something that suits your skills and interests. You don't need to contribute code to help out!
 
-### Quick Start
-
-> Using Zsh, Oh-My-Zsh, and NPM.
-
-1. Navigate to a suitable folder.
-2. Clone the repository. `git clone https://github.com/mishakessler/six-feet-over.git`
-3. Navigate to the project folder. `cd six-feet-over/code/app`
-4. Install dependencies. `npm i`
-5. Run server. `npm run start`
-6. View in browser. `open http://localhost:3000`
+Check out [Contributing](CONTRIBUTING.md) for more.
 
 ## Development
 

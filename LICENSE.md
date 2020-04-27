@@ -1,5 +1,4 @@
 # GNU GENERAL PUBLIC LICENSE
-
 _Version 3, 29 June 2007_
 
 Copyright (C) 2007 [Free Software Foundation, Inc.](https://fsf.org/)
