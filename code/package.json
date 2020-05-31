@@ -43,6 +43,7 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "auto-changelog": "2.0.0",
     "eslint": "^7.1.0",
     "prettier": "1.19.1"
   },
@@ -62,6 +63,6 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   }
 }
