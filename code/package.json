@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-personal-starter-blog",
-  "private": true,
-  "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
-  "version": "1.0.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "name": "Six Feet Over",
+  "private": false,
+  "description": "Six Feet Over is a Michigan-based suicide prevention and post-vention nonprofit.",
+  "version": "1.0.1",
+  "author": "Misha Kessler <misha.kessler@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/mishakessler/six-feet-over/issues"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
@@ -43,17 +43,18 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "eslint": "^7.1.0",
+    "prettier": "1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://www.sixftover.org",
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "GNU",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "https://github.com/mishakessler/six-feet-over"
   },
   "scripts": {
     "build": "gatsby build",

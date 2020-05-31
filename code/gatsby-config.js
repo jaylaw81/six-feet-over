@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Kyle Matthews`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Six Feet Over`,
+    author: `Misha Kessler`,
+    description: `Home of the Michigan-based suicide prevention and post-vention nonprofit, Six Feet Over.`,
+    siteUrl: `https://sixftover.org/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `sixftover`,
+      instagram: `sixftover`,
     },
   },
   plugins: [
@@ -63,20 +63,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: ``,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Six Feet Over`,
+        short_name: `SFO`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        // edit below
         icon: `content/assets/gatsby-icon.png`,
       },
     },
