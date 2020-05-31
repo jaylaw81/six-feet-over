@@ -1,55 +1,101 @@
 # Contributor Guide for Six Feet Over <!-- omit in toc -->
 
-This document is a set of guidelines for contributing to Six Feet Over. If this is your first experience contributing to an open source project, we've compiled this document to help you find the best ways you might contribute to our organization, but please take a minute to check out [the beginner's guide to contributing](https://six-feet-over/how-to-contribute/).
+This document is a set of guidelines for contributing to Six Feet Over's website.
 
-_This guide was adapted directly from [GitHub's Open Source Guide on Contributing](https://github.com/mishakessler/six-feet-over/blob/master/CONTRIBUTING.md)._
+If this is your first experience contributing to an open source project, we've compiled this document to help you find the best ways you might contribute to our organization, but please take a minute to check out [a great beginner's guide to contributing](https://opensource.guide/how-to-contribute/).
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Types of Contributions](#Types-of-Contributions)
-- [Contributor Code of Conduct](#Contributor-Code-of-Conduct)
-- [Get Started](#Get-Started)
-  - [Quick Start Guide](#Quick-Start-Guide)
-  - [Style Guide](#Style-Guide)
-- [Community](#Community)
+- [Welcomed Contributions](#Welcomed-Contributions)
+- [How to Contribute](#How-to-Contribute)
+  - [Open Development](#Open-Development)
+  - [Contribution Prerequisites](#Contribution-Prerequisites)
+  - [Branch Organization](#Branch-Organization)
+  - [Where to Find Issues](#Where-to-Find-Issues)
+  - [Proposing a Change](#Proposing-a-Change)
+  - [Sending a Pull Request](#Sending-a-Pull-Request)
+- [Style Guide](#Style-Guide)
+- [Code of Conduct](#Code-of-Conduct)
+- [License](#License)
+- [What Next?](#What-Next)
+- [Attribution](#Attribution)
 
-## Types of Contributions
+## Welcomed Contributions
 
-Beyond contributions to our website, there are several ways you can directly contribute to Six Feet Over. 
+Beyond contributions to our website, there are several ways you can directly contribute to Six Feet Over.
 
-- Fix editorial inconsistencies or inaccuracies
-- Add stories, examples, or anecdotes that help illustrate a point
-- Revise language to be more approachable and friendly
-- [Translate guides into other languages](docs/translations.md)
+- Fix editorial inconsistencies or inaccuracies;
+- Contribute stories, posts, or organizational updates via the admin dashboard;
+- Revise language to be more approachable and friendly;
 
 Interested in making a contribution? Read on!
 
-## Contributor Code of Conduct
+## How to Contribute
 
-Before we get started, there are a few things we expect from you (and that you can expect from others):
+Six Feet Over is still working on making contributing to this project as easy and transparent as possible. Hopefully this document makes the process for contributing clear and answers some questions that you may have.
 
-- Be kind and thoughtful in your conversations around this project. We all come from different backgrounds and projects, which means we likely have different perspectives on "how open source is done." Try to listen to others rather than convince them that your way is correct.
-- Open Source Guides are released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
-- If you open a pull request, please ensure that your contribution passes all tests. If there are test failures, you will need to address them before we can merge your contribution.
-- When adding content, please consider if it is widely valuable. Please don't add references or links to things you or your employer have created as others will do so if they appreciate it.
+### Open Development
 
-## Get Started
+All work on Six Feet Over happens directly on GitHub.
 
-If you'd like to begin contributing, start by checking for any [documented issues](https://github.com/mishakessler/six-feet-over/issues) and [pull requests](https://github.com/mishakessler/six-feet-over/pulls) to see whether someone else has raised a similar idea or question. If you don't see your idea listed, and you think it fits into the goals of this guide, do one of the following:
+### Contribution Prerequisites
 
-- **If your contribution is minor,** such as a typo fix, open a pull request.
-- **If your contribution is major,** such as a new guide, start by opening an issue first. That way, other people can weigh in on the discussion before you do any work.
+To contribute, you must:
 
-### Quick Start Guide
+- Have Node installed at v8.0.0+ and NPM at v6.14.0+.
+- Be comfortable installing a compiler if needed. (Some of our dependencies may require a compilation step. On OS X, the Xcode Command Line Tools will cover this. On Ubuntu, apt-get install build-essential will install the required packages. Similar commands should work on other Linux distros. Windows will require some additional steps, see the node-gyp installation instructions for details.)
+- Be familiar with Git.
+- After cloning, run `npm i` to fetch its dependencies.
 
+### Branch Organization
 
+Submit any significant feature changes to the `development` branch, while any less significant changes such as typos or language updates can be submitted to the `hotfix` branch.
 
-### Style Guide
+### Where to Find Issues
 
-If you're writing content or code, please refer to the [style guide](./STYLE.md) to ensure consistency.
+We are using GitHub Issues for our public bugs. We keep a close eye on this and try to make it clear when we have an internal fix in progress. Before filing a new task, try to make sure your problem doesn’t already exist.
 
-## Community
+### Proposing a Change
 
-Discussions about Six Feet Over will take place on this repository's [Issues](https://github.com/mishakessler/six-feet-over/issues) and [Pull Requests](https://github.com/mishakessler/six-feet-over/pulls). Anybody is welcome to join in on these conversations. There is also a [mailing list](http://eepurl.com/cecpnT) for the nonprofit's core updates.
+If you intend to make any non-trivial changes to the implementation, we recommend filing an issue. This lets us reach an agreement on your proposal before you put significant effort into it.
 
-Wherever possible, do not take these conversations to private channels, including contacting the maintainers directly. Keeping communication public means everybody can benefit and learn from the conversation.
+If you’re only fixing a bug, it’s fine to submit a pull request right away but we still recommend to file an issue detailing what you’re fixing. This is helpful in case we don’t accept that specific fix but want to keep track of the issue.
+
+### Sending a Pull Request
+
+The core team is monitoring for pull requests. We will review your pull request and either merge it, request changes to it, or close it with an explanation. Significant changes may require greater planning, which could cause some delay. We’ll do our best to provide updates and feedback throughout the process.
+
+Before submitting a pull request, please make sure the following is done:
+
+1. Fork the repository and create your branch from master.
+1. Run yarn in the repository root.
+1. Format your code with Prettier.
+1. Lint your code with ESLint.
+
+Working on your first Pull Request? You can learn how from [How to Submit A Contribution to an Open Source Project on GitHub](https://opensource.guide/how-to-contribute/#how-to-submit-a-contribution).
+
+## Style Guide
+
+We use an automatic code formatter called Prettier. Run `npm run format` after making any changes to the code.
+
+Then, ESLint will catch most issues that may exist in your code. We recommend simply using VSCode with the ESLint extension enabled.
+
+That said, there are still some styles that the linter cannot pick up. If you are unsure, looking at [Airbnb’s Style Guide](https://github.com/airbnb/javascript) will guide you in the right direction.
+
+## Code of Conduct
+
+Six Feet Over has adopted the Contributor Covenant as its Code of Conduct, and we expect project participants to adhere to it. Please read the full text in [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+
+## License
+
+By contributing to Six Feet Over, you agree that your contributions will be licensed under its GNU General Public License. Please read the full text in [LICENSE.md](./LICENSE.md).
+
+## What Next?
+
+Read the next section to learn how the codebase is organized.
+
+---
+
+## Attribution
+
+This Contributor Guide is adapted from the [ReactJS How to Contribute](https://reactjs.org/docs/how-to-contribute.html) page, available at the linked page above.
