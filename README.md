@@ -7,6 +7,7 @@
 <div align="center">
 
 ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_message=online&url=https%3A%2F%2Fwww.sixftover.org)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c8535ae4-f71e-4d27-9551-e30bd17b2f25/deploy-status)](https://app.netlify.com/sites/six-feet-over/deploys)
 
 ![GitHub top language](https://img.shields.io/github/languages/top/mishakessler/six-feet-over)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](contributing.md)
