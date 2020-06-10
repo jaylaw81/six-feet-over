@@ -1,9 +1,16 @@
 backend:
   name: github
-  repo: mishakessler/six-feet-over/code
+  repo: mishakessler/six-feet-over
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
-media_folder: content/assets
-public_folder: ../assets
+publish_mode: editorial_workflow
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+site_url: https://six-feet-over.netlify.app
+display_url: https://six-feet-over.netlify.app
 
 collections:
   - name: blog
