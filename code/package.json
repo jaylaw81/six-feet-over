@@ -1,5 +1,5 @@
 {
-  "name": "Six Feet Over",
+  "name": "SixFeetOver",
   "private": false,
   "description": "Six Feet Over is a Michigan-based suicide prevention and post-vention nonprofit.",
   "version": "1.0.1",
@@ -58,7 +58,7 @@
     "url": "https://github.com/mishakessler/six-feet-over"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm run build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
