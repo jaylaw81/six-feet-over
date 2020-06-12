@@ -2,7 +2,7 @@
   "name": "SixFeetOver",
   "private": false,
   "description": "Six Feet Over is a Michigan-based suicide prevention and post-vention nonprofit.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Misha Kessler <misha.kessler@gmail.com>",
   "bugs": {
     "url": "https://github.com/mishakessler/six-feet-over/issues"
