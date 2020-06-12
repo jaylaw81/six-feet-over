@@ -5,9 +5,8 @@ backend:
   auth_endpoint: auth
 
 publish_mode: editorial_workflow
-
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: content/assets
+public_folder: ../assets
 
 site_url: https://six-feet-over.netlify.app
 display_url: https://six-feet-over.netlify.app
