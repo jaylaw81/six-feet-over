@@ -3,7 +3,8 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Button from "../components/button"
+
+import Button from "../elements/button"
 
 import { rhythm } from "../utils/typography"
 
