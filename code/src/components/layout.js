@@ -68,7 +68,7 @@ class Layout extends React.Component {
         </div>
         <Footer>
           © {new Date().getFullYear()},{` `}
-          <a href="https://www.mishakessler.com">Misha Kessler</a>
+          <a href="https://www.sixftover.org">Six Feet Over</a>
         </Footer>
       </Wrapper>
     )
@@ -77,6 +77,13 @@ class Layout extends React.Component {
 
 const Wrapper = styled.div`
   min-height: 100vh;
+  color: #f2f2f2;
+  background-color: #3c4557;
+  transition: background-color 1.25s ease;
+  &:focus-within {
+    background-color: #f2f2f2;
+    transition: background-color 1.25s ease;
+  }
 `
 
 const Footer = styled.footer`
