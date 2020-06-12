@@ -5,8 +5,8 @@ module.exports = {
     description: `Home of the Michigan-based suicide prevention and post-vention nonprofit, Six Feet Over.`,
     siteUrl: `https://sixftover.org/`,
     social: {
-      twitter: `sixftover`,
-      instagram: `sixftover`,
+      twitter: `_mishakessler`,
+      instagram: `mishakessler`,
     },
   },
   plugins: [
