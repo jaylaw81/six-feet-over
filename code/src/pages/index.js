@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import Button from "../elements/button"
 
-class IndexPage extends React.Component {
+export default class IndexPage extends React.Component {
   render() {
     const siteTitle = "Six Feet Over"
 
@@ -32,11 +32,9 @@ class IndexPage extends React.Component {
         </h1>
         <p>This website is currently being built for Six Feet Over.</p>
         <Link to="/blog/">
-          <Button marginTop="35px">Go to Test Blog</Button>
+          <Button marginTop="35px">View News & Events</Button>
         </Link>
       </Layout>
     )
   }
 }
-
-export default IndexPage
