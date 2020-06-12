@@ -3,7 +3,7 @@ module.exports = {
     title: `Six Feet Over`,
     author: `Misha Kessler`,
     description: `Home of the Michigan-based suicide prevention and post-vention nonprofit, Six Feet Over.`,
-    siteUrl: `https://sixftover.org/`,
+    siteUrl: `https://mishakessler.com/`,
     social: {
       twitter: `_mishakessler`,
       instagram: `mishakessler`,
