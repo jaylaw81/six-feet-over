@@ -2,7 +2,7 @@
   "name": "SixFeetOver",
   "private": false,
   "description": "Six Feet Over is a Michigan-based suicide prevention and post-vention nonprofit.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Misha Kessler <misha.kessler@gmail.com>",
   "bugs": {
     "url": "https://github.com/mishakessler/six-feet-over/issues"
@@ -70,6 +70,6 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "changelog": "auto-changelog -p --template keepachangelog --commit-limit false && git add CHANGELOG.md"
+    "changelog": "auto-changelog -p --template keepachangelog --commit-limit false && git add CHANGELOG.md package.json package-lock.json"
   }
 }
