@@ -33,7 +33,7 @@ Six Feet Over is a certified 501c3 nonprofit based in Detroit, Michigan. We spec
 
 ### Stack
 
-- **Responsive Web App** built with React, Gatsby.js, and SASS.
+- **Responsive Web App** built with React, Gatsby.js, and Styled Components.
 - **Authentication & API** via NetlifyCMS 
 - **Additional Tools** include Google Fonts, Google Analytics.
 - **Integrations** include NeonCRM, SquareUp eCommerce, MailChimp.
