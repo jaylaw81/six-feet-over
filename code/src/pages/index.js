@@ -14,9 +14,12 @@ class IndexPage extends React.Component {
         <SEO
           title="Home"
           keywords={[
+            `charity`,
+            `fundraiser`,
             `home`,
-            `six feet over`,
+            `mental health`,
             `nonprofit`,
+            `six feet over`,
             `suicide prevention`,
           ]}
         />

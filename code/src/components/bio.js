@@ -34,12 +34,19 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              Written by <strong>{author}</strong> with
+              <span role="img" aria-label="heart emoji">
+                ❤️
+              </span>
+              .
+            </p>
+            <p>
+              Interested in more? Follow them on{" "}
+              <a href={`https://twitter.com/${social.twitter}`}>Twitter</a> and{" "}
+              <a href={`https://instagram.com/${social.instagram}`}>
+                Instagram
               </a>
+              .
             </p>
           </Container>
         )
