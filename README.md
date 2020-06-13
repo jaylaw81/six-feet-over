@@ -1,20 +1,8 @@
-<p align="center">
-
-  ![Responsive Design Mockup](/design/responsive.png)
-  
-</p>
-
-# Six Feet Over <!-- omit in toc -->
+# Six Feet Over ![GitHub top language](https://img.shields.io/github/languages/top/mishakessler/six-feet-over) ![NPM Version](https://img.shields.io/npm/v/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) ![Netlify Build](https://img.shields.io/netlify/414571a1-73a7-4eba-bc14-802bdf0fa2cb) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.md) <!-- omit in toc -->
 
 <div align="center">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/414571a1-73a7-4eba-bc14-802bdf0fa2cb/deploy-status)](https://app.netlify.com/sites/six-feet-over/deploys)
-
-![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_message=online&url=https%3A%2F%2Fwww.sixftover.org)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](contributing.md)
-![GitHub top language](https://img.shields.io/github/languages/top/mishakessler/six-feet-over)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+![Responsive Design Mockup](/design/responsive.png)
 
 </div>
 
@@ -51,7 +39,7 @@ Six Feet Over is a certified 501c3 nonprofit based in Detroit, Michigan. We spec
 
 ***
 
-## Contributing
+## Contributing [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 _Hoping to contribute?_ We welcome contributions to further enable the mission of Six Feet Over!
 
